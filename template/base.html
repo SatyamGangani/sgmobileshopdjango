@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/assets/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/static/assets/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"> -->
+    <script src="/static/assets/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
+    <script src="/static/assets/jquery.min.js"></script>
+    <link rel="stylesheet" href="/static/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/assets/fonts_ubuntu/Ubuntu-Regular.ttf">
+    <link rel="icon" href="/static/image/sgwebicon.jpg">
+    <title>SG Mobile</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-end" style="background-color: rgb(220, 249, 239); font-family: 'Ubuntu', sans-serif;font-size: large;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="container-fluid text-center">
+          <a class="navbar-brand mx-auto" href="/"><img src="/static/image/sgwebicon.jpg" class="rounded rounded-circle"alt="" width="80px"></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item  mx-auto">
+                <a class="nav-link active" aria-current="page" href="/products/mobile">Mobile</a>
+              </li>
+              <li class="nav-item  mx-auto">
+                <a class="nav-link" href="/products/tablet-and-ipad">Tablet And iPad</a>
+              </li>
+              <li class="nav-item  mx-auto">
+                <a class="nav-link" href="/products/accessory">Accessories</a>
+              </li>
+              <li class="nav-item  mx-auto">
+                <a class="nav-link" href="/products">Explore Products</a>
+              </li>
+              <li class="nav-item  mx-auto">
+                <a class="nav-link" href="/aboutus">About Us</a>
+              </li>
+            </ul>
+            
+            <a href="signin"><i class="fa fa-user-circle text-center  text-dark" style="font-size:36px"></i></a>
+            <i class="fa fa-shopping-cart ms-4 text-center" style="font-size:36px"></i>
+          </div>
+        </div>
+      </nav>
+    <!-- </div> -->
+
+
+      {% block body %}
+      {% endblock body %}
+      
+  <footer
+  class="text-center text-lg-start text-white p-2" style="background-color: #1c2331">
+<section class="">
+<div class="container text-center text-md-start">
+<div class="row mt-3">
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+    <h6 class="text-uppercase fw-bold">Products</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #7c4dff; height: 2px"
+        />
+    <p>
+      <a href="products.html?dataType=mobile" class="text-white text-decoration-none">Mobile Phones</a>
+    </p>
+    <p>
+      <a href="products.html?dataType=tablet" class="text-white text-decoration-none">Tablet And iPad</a>
+    </p>
+    <p>
+      <a href="products.html?dataType=accessory" class="text-white text-decoration-none">Accessories</a>
+    </p>
+  </div>
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+    <h6 class="text-uppercase fw-bold">Useful links</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #7c4dff; height: 2px"
+        />
+    <p>
+      <a href="#!" class="text-white text-decoration-none">Your Account</a>
+    </p>
+    <p>
+      <a href="index.html" class="text-white text-decoration-none">Home</a>
+    </p>
+    <p>
+      <a href="products.html" class="text-white text-decoration-none">Explore Products</a>
+    </p>
+    <p>
+      <a href="aboutus.html" class="text-white text-decoration-none">About Us</a>
+    </p>
+  </div>
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+    <h6 class="text-uppercase fw-bold">Contact</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #7c4dff; height: 2px"
+        />
+    <p><i class="fa fa-home mr-3"></i> Surat, Gujarat, India</p>
+    <p><i class="fa fa-envelope mr-3"></i> satyamgangani@gmail.com</p>
+    <p><i class="fa fa-phone mr-3"></i> +91 99999 99999</p>
+    <p><i class="fa fa-print mr-3"></i> +91 99999 46666</p>
+  </div>
+</div>
+</div>
+</section>
+<div
+ class="text-center p-3"
+ style="background-color: rgba(0, 0, 0, 0.2)"
+ >
+© 2023 Copyright:
+<a class="text-white text-decoration-none" href="index.html">SG Mobile Shop</a>
+</div>
+</footer>
+</body>
+</html>

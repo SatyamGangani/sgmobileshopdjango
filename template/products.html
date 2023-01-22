@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div class="container mt-4">
+  <h1 id="categName"></h1>
+  <!-- <h1>{{products}}</h1> -->
+  <section style="background-color: #eee;">
+    <div class="container py-5">
+      <div class="row" id="product">
+        {% for product in products %}
+          <div class="col-md-12 col-lg-4 mb-4 mb-lg-0 mt-2">
+            <div class="card">
+              <!-- <img src="{{product.image}}" alt=""> -->
+              <img src="/media/{{product.image}}" class="card-img-top mx-auto p-2 m-3" alt="Laptop" style="max-width: 250px;aspect-ratio:3/3;object-fit:contain" />
+              <div class="d-flex justify-content-between p-3">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="small"><a href="" class="text-muted">{{product.brand_id}}</a></p>
+                    <p class="small text-danger"><s>Rs. {{product.mrp}}</s></p>
+                  </div>
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">{{product.name}}</h5>
+                    <h5 class="text-dark mb-0">Rs. {{product.offer_price}}</h5>
+                  </div>
+                <div class="d-flex justify-content-between mb-2">
+                  <p class="text-muted mb-0">Available: <span class="fw-bold">{{product.qty}}</span></p>
+                  <div class="ms-auto text-warning">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+                <button class='btn btn-outline-dark d-block mx-auto'><a class='text-decoration-none text-danger' href='productPreview.html?dataType=${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}' class='' >View Product</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>
+<script>
+  // if(window.XMLHttpRequest){
+  //   xmlhttp=new XMLHttpRequest();
+  // }
+  //   else{
+  //       xmlhttp=new ActiveXObject();
+  //     }
+  //     xmlhttp.open('GET','data/productsMobiles.xml',false)
+  //     xmlhttp.send();
+  //   xmlDoc = xmlhttp.responseXML;
+  //   productDiv=document.getElementById('product');
+  //   urlStr = window.location.search;
+  //   urlParam = new URLSearchParams(urlStr);
+  //   productCategory = urlParam.get('dataType');
+    
+  //   // alert(xmlDoc)
+  //   // tab = xmlDoc.getElementsByTagName('tablet');
+  //   // startTabVal=parseInt(tab[0].childNodes[1].childNodes[0].nodeValue)
+  //   // endTabVal=parseInt(tab[0].childNodes[1].childNodes[0].nodeValue) + tab.length
+    
+  //   x= productCategory==null?'All Products':productCategory;
+  //   document.getElementById('categName').innerHTML= productCategory==null?'All Products': productCategory[0].toUpperCase()+productCategory.slice(1,);
+  //   if(productCategory!=null){
+  //     for(i=0;i<xmlDoc.getElementsByTagName('product').length;i++){
+  //           if(xmlDoc.getElementsByTagName('category')[i].childNodes[0].nodeValue==productCategory || xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue==productCategory){
+  //             productDiv.innerHTML+= addprod(i)
+  //           }
+  //         }}
+  //         else{
+  //           for(i=0;i<xmlDoc.getElementsByTagName('product').length;i++){
+  //             productDiv.innerHTML+= addprod(i);
+  //           }   
+  //         }
+  //       function addprod(i){
+            // return `<div class="col-md-12 col-lg-4 mb-4 mb-lg-0 mt-2">
+            //     <div class="card">
+            //         <div class="d-flex justify-content-between p-3">
+            //           </div>
+            //           <img src="static/${xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue}" class="card-img-top mx-auto" alt="Laptop" style="max-width: 250px;aspect-ratio:3/3;object-fit:contain" />
+            //           <div class="card-body">
+            //             <div class="d-flex justify-content-between">
+            //                     <p class="small"><a href="products.html?dataType=${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}" class="text-muted">${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}</a></p>
+            //                     <p class="small text-danger"><s>Rs.${xmlDoc.getElementsByTagName('mrp')[i].childNodes[0].nodeValue}</s></p>
+            //                     </div>
+            //                     <div class="d-flex justify-content-between mb-3">
+            //                       <h5 class="mb-0">${xmlDoc.getElementsByTagName('name')[i].childNodes[0].nodeValue}</h5>
+            //                       <h5 class="text-dark mb-0">Rs. ${xmlDoc.getElementsByTagName('offerprice')[i].childNodes[0].nodeValue}</h5>
+            //                         </div>
+            //                         <div class="d-flex justify-content-between mb-2">
+            //                             <p class="text-muted mb-0">Available: <span class="fw-bold">${xmlDoc.getElementsByTagName('qty')[i].childNodes[0].nodeValue}</span></p>
+            //                             <div class="ms-auto text-warning">
+            //                               <i class="fa fa-star"></i>
+            //                                 <i class="fa fa-star"></i>
+            //                                 <i class="fa fa-star"></i>
+            //                                 <i class="fa fa-star"></i>
+            //                                 <i class="fa fa-star"></i>
+            //                                 </div>
+            //                                 </div>
+            //                                 <button class='btn btn-outline-dark d-block mx-auto'><a class='text-decoration-none text-danger' href='productPreview.html?dataType=${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}' class='' >View Product</a></button>
+                                            
+            //                                 </div>
+            //                                 </div>`;
+  //                                         }
+  //                                         $(document).ready(function(){
+  //                                           $('body').hide().fadeIn();
+  //                                         })
+  //       if(productDiv.innerHTML==''){
+  //         productDiv.innerHTML=`<h2 class='text-center text-danger'><i class="fa fa-frown-o" aria-hidden="true"></i> Sorry, No Products Available.....</h2>`
+  //       }
+    </script>
+</html>
+{% endblock body %}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phoneBrand>
+
+    <phoneCompany>
+        <id>1</id>
+        <name>Apple</name>
+        <Brandlogo>applelogo.png</Brandlogo>
+    </phoneCompany>
+    
+    <phoneCompany>
+        <id>2</id>
+        <name>Samsung</name>
+        <Brandlogo>samsunglogo.png</Brandlogo>
+    </phoneCompany>
+    <phoneCompany>
+        <id>3</id>
+        <name>OnePlus</name>
+        <Brandlogo>onepluslogo.png</Brandlogo>
+    </phoneCompany>
+    <phoneCompany>
+        <id>4</id>
+        <name>MI</name>
+        <Brandlogo>milogo.png</Brandlogo>
+    </phoneCompany>
+    <phoneCompany>
+        <id>5</id>
+        <name>oppo</name>
+        <Brandlogo>oppologo.png</Brandlogo>
+    </phoneCompany>
+    <phoneCompany>
+        <id>6</id>
+        <name>boat</name>
+        <Brandlogo>boat_logo.png</Brandlogo>
+    </phoneCompany>
+</phoneBrand>

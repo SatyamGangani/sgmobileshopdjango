@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<products>
+    <product>
+        <id>1</id>
+        <category>mobile</category>
+        <brand>Apple</brand>
+        <name>iPhone 13</name>
+        <mrp>96,000</mrp>
+        <offerprice>46,130</offerprice>
+        <image>iphone13.jpg</image>
+        <description>iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension. A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience.</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>2</id>
+        <category>mobile</category>
+        <brand>Apple</brand>
+        <name>iPhone 14 Pro Max</name>
+        <mrp>1,76,000</mrp>
+        <offerprice>96,130</offerprice>
+        <image>iPhone14ProMax.webp</image>
+        <description>The Apple iPhone 14 Pro Max 5G comes with a 6.7-inch ProMotion technology touchscreen, features Crash Detection and a new Truedepth 48-megapixel front camera with Photonic Engine, an extra hour of video playback compared to last year's model and a new Action mode</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>3</id>
+        <category>mobile</category>
+        <brand>Apple</brand>
+        <name>iPhone 14 Plus</name>
+        <mrp>1,36,000</mrp>
+        <offerprice>86,130</offerprice>
+        <image>iPhone14plus.webp</image>
+        <description>New iPhone 14 Plus has a supersized Super Retina XDR display. Longest battery life ever. A new Main camera and improved image processing let you capture even more sensational shots in all kinds of light — especially low light</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>4</id>
+        <category>mobile</category>
+        <brand>Apple</brand>
+        <name>iPhone 12</name>
+        <mrp>77,000</mrp>
+        <offerprice>69,130</offerprice>
+        <image>iphone12.webp</image>
+        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>5</id>
+        <category>mobile</category>
+        <brand>Samsung</brand>
+        <name>Samsung S22 Ultra</name>
+        <mrp>1,46,000</mrp>
+        <offerprice>1,02,000</offerprice>
+        <image>samsungs22ultra.jpg</image>
+        <description>The first Galaxy S with embedded S Pen. Write comfortably like pen on paper, turn quick notes into legible text and use Air Actions to control your phone remotely. Improved latency in Samsung Notes makes every pen stroke feel as natural as ink on paper - and you can convert those hastily written ideas into legible text.5G Ready</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>6</id>
+        <category>mobile</category>
+        <brand>Samsung</brand>
+        <name>Samsung S22</name>
+        <mrp>78,000</mrp>
+        <offerprice>56,000</offerprice>
+        <image>samsungs22.jpg</image>
+        <description>Experience a brilliant user interface and capture mesmerising images with the innovative Samsung Galaxy S22 Plus 5G, designed specifically for photography fanatics. This phone’s Auto Framerate adjusts the fps speed to the environment, and its Super Night Solution reduces noise, enabling you to take photographs with stunning detail. Powered by the sophisticated 4 nm CPU architecture and Snapdragon 8 Gen 1 processor</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>7</id>
+        <category>mobile</category>
+        <brand>Samsung</brand>
+        <name>Samsung Z Flip 3</name>
+        <mrp>98,000</mrp>
+        <offerprice>76,000</offerprice>
+        <image>samsungzflip3.avif</image>
+        <description>
+            Whether you want to fold it into your pocket, put it into your purse, or slip it into your jeans this Samsung Galaxy Z Flip 3 5G lets you do all of it with ease. This smartphone comes with a 10.72 cm (4.2) display so that you can not only enjoy immersive visuals on a widescreen but also can conveniently fit it in your pocket</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>8</id>
+        <category>mobile</category>
+        <brand>Samsung</brand>
+        <name>Samsung Z Fold 3</name>
+        <mrp>1,78,000</mrp>
+        <offerprice>1,16,000</offerprice>
+        <image>samsungzfold3.avif</image>
+        <description>
+            Unfold an immersive experience as you keep watching movies, working and playing on the Samsung Galaxy Z Fold3 5G. This mobile phone features a Infinity Flex Display with an Under Display Camera so that you can enjoy using the mobile according to your convenience. And, enjoy taking a call on the top half and building ideas on the lower half, as this smartphone comes with a hands-free Flex mode that allows you to split the phone into two parts. </description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>9</id>
+        <category>mobile</category>
+        <brand>OnePlus</brand>
+        <name>OnePlus Nord CE 2 Lite 5G</name>
+        <mrp>28,000</mrp>
+        <offerprice>20,000</offerprice>
+        <image>oneplusnordce2lite.webp</image>
+        <description>Qualcomm® Snapdragon™ 695 Chipset.5000 mAh Battery+ 33W SUPERVOOC Fast Charging.16.73cm (6.59”) 120 Hz Energy-efficient Display.64 MP AI Triple Camera.3.5mm Headphone Jack + Extra SIM/microSD Card Slot.OxygenOS 12.1 + Guaranteed Software/Security Updates.Watch the film.
+            </description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>10</id>
+        <category>mobile</category>
+        <brand>OnePlus</brand>
+        <name>OnePlus 10t</name>
+        <mrp>68,000</mrp>
+        <offerprice>48,000</offerprice>
+        <image>oneplus10t.webp</image>
+        <description>The OnePlus 10T 128GB Green is a device with Android, that has a screen with a 2412x1080 pixel resolution. The phone contains 128000 MB storage space and has a 8192 MB working memory. The back contains a good-quality camera that allows you to take great pictures. </description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>11</id>
+        <category>mobile</category>
+        <brand>OnePlus</brand>
+        <name>OnePlus Nord 2t</name>
+        <mrp>58,000</mrp>
+        <offerprice>48,000</offerprice>
+        <image>oneplusnord2t.jpg</image>
+        <description>Nord 2T has a big Sony IMX766 flagship sensor with OIS on the main camera that vacuums up 56% more light for pristine, colorful shots, even in low lighting. In case you missed it, Nord 2T comes with the same slick 16.33 cm (6.43") 90 Hz FHD+ AMOLED display as Nord 2. It's effortlessly smooth and has HDR10+.</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>12</id>
+        <category>tablet</category>
+        <brand>Apple</brand>
+        <name>iPad Air 5th Gen</name>
+        <mrp>58,000</mrp>
+        <offerprice>48,000</offerprice>
+        <image>ipadair5gen.webp</image>
+        <description>Apple iPad Air 2022(5th Gen) 10.9inch Blue 256GB Wi-Fi All-screen design. Beauty all around. iPad Air lets you immerse yourself in whatever you’re reading, watching, or creating. The 10.9-inch Liquid Retina display features advanced technologies like True Tone, P3 wide color, and an antireflective coating.</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>13</id>
+        <category>tablet</category>
+        <brand>Apple</brand>
+        <name>iPad Pro 5th Gen</name>
+        <mrp>2,18,000</mrp>
+        <offerprice>2,08,000</offerprice>
+        <image>ipadpro5gen.webp</image>
+        <description>Now, enjoy the latest camera functionality right in your hands! The Apple iPad Pro 12.9 5th Gen WiFi + 5G iOS Tablet features an amazing combination of 12 MP Wide and 10 MP Ultra Wide cameras. It comes with digital zoom up to 5x, 2x optical zoom out, Panorama (up to 63 MP), Autofocus with Focus Pixels (Wide), Smart HDR 3, Wide colour capture for photos and Live Photos, Lens correction (Ultra Wide), Advanced red-eye correction and many other features</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>14</id>
+        <category>tablet</category>
+        <brand>Apple</brand>
+        <name>iPad Mini 6th Gen</name>
+        <mrp>48,000</mrp>
+        <offerprice>38,000</offerprice>
+        <image>ipadmini6gen.webp</image>
+        <description>Featuring an all-screen design with an 8.3-inch Liquid Retina display. The powerful A15 Bionic chip with Neural Engine.</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>15</id>
+        <category>tablet</category>
+        <brand>Samsung</brand>
+        <name>Galaxy Tab S7+ with Stylus</name>
+        <mrp>68,000</mrp>
+        <offerprice>48,000</offerprice>
+        <image>samsungtabs7+.webp</image>
+        <description>Get immersed in the Tab S7+'s amazing 12.4 inch Super AMOLED and the 120Hz refresh rate for smooth viewing experiences. Rich audio and 3D surround sound with Quad speakers by AKG and Dolby ATMOS.</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>16</id>
+        <category>tablet</category>
+        <brand>MI</brand>
+        <name>Redmi Pad 4</name>
+        <mrp>38,000</mrp>
+        <offerprice>28,000</offerprice>
+        <image>xiomipad4.webp</image>
+        <description>
+            Explore different perspectives and enjoy smooth gaming with Redmi Pad that enables you to achieve top-notch productivity. This gadget’s display features a 2K resolution and supports up to a billion hues, making everything on it a joy to watch. Furthermore, with the MediaTek Helio G99 processor equipped with the Redmi Pad</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>17</id>
+        <category>accessory</category>
+        <brand>boat</brand>
+        <name>Boat Immortal 121 tws</name>
+        <mrp>2,000</mrp>
+        <offerprice>1,600</offerprice>
+        <image>boattws121.webp</image>
+        <description>
+            boAt Immortal 121 are the all new TWS gaming earbuds which has been ergonomically designed to meet the needs of every gaming lover. The earbuds offer BEAST Mode with latency as low as 40ms. You get to transform the whole vibe of your game station with the blazing LEDs when you don your cherished avatar in your favourite game</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>18</id>
+        <category>accessory</category>
+        <brand>boat</brand>
+        <name>Boat 191G Airdopes tws</name>
+        <mrp>4,000</mrp>
+        <offerprice>2,600</offerprice>
+        <image>boat191.jpeg</image>
+        <description>
+            It's time to Be The Game, with Airdopes 191G TWS earbuds. The 2x 6mm dual drivers in the earbuds are there to deliver an immersive listening time. Our ENx Tech enabled quad mics help you to be heard crystal clear across voice calls. </description>
+        <qty>10</qty>
+    </product>
+</products>
