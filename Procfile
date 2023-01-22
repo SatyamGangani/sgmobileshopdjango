@@ -1,1 +1,0 @@
-web: gunicorn sgmobileshop.wsgi --log-file -
