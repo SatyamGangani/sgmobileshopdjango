@@ -1,1 +1,1 @@
-web gunicorn sgmobileshop.wsgi --log-file -
+web: gunicorn sgmobileshop.wsgi --log-file -
